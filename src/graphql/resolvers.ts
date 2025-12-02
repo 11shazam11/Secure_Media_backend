@@ -270,8 +270,8 @@ export const resolvers = {
         });
       }
 
-      // 3) Call Edge Function to hash object (stubbed here)
-      // TODO: replace with actual call to Supabase Edge Function `hash-object`
+      // 3) Call Edge Function to hash object 
+      
       const { data: fileData, error: downloadErr } =
         await supabaseServer.storage
           .from("private")
